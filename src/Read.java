@@ -6,7 +6,6 @@ public class Read {
 
     public static void main (String[] args){
 
-            StringBuilder content = new StringBuilder();
             try {
                 File file = new File("quotes.txt");
                 Scanner scan = new Scanner(file);
